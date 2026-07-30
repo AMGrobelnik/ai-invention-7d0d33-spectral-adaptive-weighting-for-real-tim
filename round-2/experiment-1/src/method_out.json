@@ -1,0 +1,222 @@
+{
+  "datasets": [
+    {
+      "dataset": "spectral_ensemble_validation",
+      "examples": [
+        {
+          "series_id": "M4_energy_daily_00",
+          "domain": "energy",
+          "omega_train_mean": 0.9900000000000001,
+          "omega_train_std": 1.1102230246251565e-16,
+          "omega_test_mean": 0.5,
+          "omega_test_std": 0.0,
+          "omega_regime_shift": 0.4900000000000001,
+          "mse": {
+            "arima": 449.63309901871474,
+            "lstm": 11734.439680935257,
+            "fixed_0.5_0.5": 3448.5665088594583,
+            "spectral_adaptive": 3448.5665088594583,
+            "error_based": 3448.5665088594583,
+            "arima_only": 449.63309901871474,
+            "lstm_only": 11734.439680935257
+          },
+          "alpha_learned": 0.5
+        },
+        {
+          "series_id": "M4_energy_daily_01",
+          "domain": "energy",
+          "omega_train_mean": 0.9899999999999999,
+          "omega_train_std": 1.1102230246251565e-16,
+          "omega_test_mean": 0.9899999999999999,
+          "omega_test_std": 1.1102230246251565e-16,
+          "omega_regime_shift": 0.0,
+          "mse": {
+            "arima": 462.56195091769246,
+            "lstm": 11897.127833464876,
+            "fixed_0.5_0.5": 3514.6946008340146,
+            "spectral_adaptive": 591.3181286176356,
+            "error_based": 3514.6946008340146,
+            "arima_only": 462.56195091769246,
+            "lstm_only": 11897.127833464876
+          },
+          "alpha_learned": 0.9205614508160216
+        },
+        {
+          "series_id": "M4_energy_daily_02",
+          "domain": "energy",
+          "omega_train_mean": 0.99,
+          "omega_train_std": 0.0,
+          "omega_test_mean": 0.9899999999999997,
+          "omega_test_std": 3.3306690738754696e-16,
+          "omega_regime_shift": 3.3306690738754696e-16,
+          "mse": {
+            "arima": 473.7561219704344,
+            "lstm": 12041.814079881702,
+            "fixed_0.5_0.5": 3589.4670145614436,
+            "spectral_adaptive": 612.1900975742604,
+            "error_based": 3589.4670145614436,
+            "arima_only": 473.7561219704344,
+            "lstm_only": 12041.814079881702
+          },
+          "alpha_learned": 0.9205614508160216
+        },
+        {
+          "series_id": "M4_finance_daily_00",
+          "domain": "finance",
+          "omega_train_mean": 0.99,
+          "omega_train_std": 0.0,
+          "omega_test_mean": 0.9900000000000001,
+          "omega_test_std": 1.1102230246251565e-16,
+          "omega_regime_shift": 1.1102230246251565e-16,
+          "mse": {
+            "arima": 39.323950371579,
+            "lstm": 11784.865126743323,
+            "fixed_0.5_0.5": 3237.147354219852,
+            "spectral_adaptive": 189.9178428957342,
+            "error_based": 3237.147354219852,
+            "arima_only": 39.323950371579,
+            "lstm_only": 11784.865126743323
+          },
+          "alpha_learned": 0.9205614508160218
+        },
+        {
+          "series_id": "M4_finance_daily_02",
+          "domain": "finance",
+          "omega_train_mean": 0.9900000000000001,
+          "omega_train_std": 1.1102230246251565e-16,
+          "omega_test_mean": 0.9899999999999998,
+          "omega_test_std": 2.220446049250313e-16,
+          "omega_regime_shift": 3.3306690738754696e-16,
+          "mse": {
+            "arima": 35.86702401078168,
+            "lstm": 11724.792916039965,
+            "fixed_0.5_0.5": 3203.385204931994,
+            "spectral_adaptive": 181.37916361503068,
+            "error_based": 3203.385204931994,
+            "arima_only": 35.86702401078168,
+            "lstm_only": 11724.792916039965
+          },
+          "alpha_learned": 0.9205614508160216
+        },
+        {
+          "series_id": "M4_transportation_daily_00",
+          "domain": "transportation",
+          "omega_train_mean": 0.99,
+          "omega_train_std": 0.0,
+          "omega_test_mean": 0.9900000000000002,
+          "omega_test_std": 2.220446049250313e-16,
+          "omega_regime_shift": 2.220446049250313e-16,
+          "mse": {
+            "arima": 249.79859574720848,
+            "lstm": 2095.281633674856,
+            "fixed_0.5_0.5": 506.98207541750395,
+            "spectral_adaptive": 201.71720169366426,
+            "error_based": 506.98207541750395,
+            "arima_only": 249.79859574720848,
+            "lstm_only": 2095.281633674856
+          },
+          "alpha_learned": 0.9205614508160218
+        },
+        {
+          "series_id": "M4_transportation_daily_01",
+          "domain": "transportation",
+          "omega_train_mean": 0.9900000000000001,
+          "omega_train_std": 1.1102230246251565e-16,
+          "omega_test_mean": 0.9900000000000001,
+          "omega_test_std": 1.1102230246251565e-16,
+          "omega_regime_shift": 0.0,
+          "mse": {
+            "arima": 243.65794648890983,
+            "lstm": 2583.134267970947,
+            "fixed_0.5_0.5": 742.3695826987787,
+            "spectral_adaptive": 233.21906318813421,
+            "error_based": 742.3695826987787,
+            "arima_only": 243.65794648890983,
+            "lstm_only": 2583.134267970947
+          },
+          "alpha_learned": 0.9205614508160218
+        },
+        {
+          "series_id": "M4_weather_daily_00",
+          "domain": "weather",
+          "omega_train_mean": 0.99,
+          "omega_train_std": 0.0,
+          "omega_test_mean": 0.5,
+          "omega_test_std": 0.0,
+          "omega_regime_shift": 0.49,
+          "mse": {
+            "arima": 48.30747950911866,
+            "lstm": 278.5829402148832,
+            "fixed_0.5_0.5": 106.06058177575692,
+            "spectral_adaptive": 106.06058177575692,
+            "error_based": 106.06058177575692,
+            "arima_only": 48.30747950911866,
+            "lstm_only": 278.5829402148832
+          },
+          "alpha_learned": 0.5
+        },
+        {
+          "series_id": "M4_weather_daily_01",
+          "domain": "weather",
+          "omega_train_mean": 0.99,
+          "omega_train_std": 0.0,
+          "omega_test_mean": 0.9900000000000001,
+          "omega_test_std": 1.1102230246251565e-16,
+          "omega_regime_shift": 1.1102230246251565e-16,
+          "mse": {
+            "arima": 51.19464623727299,
+            "lstm": 267.096429922941,
+            "fixed_0.5_0.5": 102.79664853184923,
+            "spectral_adaptive": 51.86282942412145,
+            "error_based": 102.79664853184923,
+            "arima_only": 51.19464623727299,
+            "lstm_only": 267.096429922941
+          },
+          "alpha_learned": 0.9205614508160218
+        }
+      ],
+      "experiment_summary": {
+        "total_series": 9,
+        "series_with_high_regime_shift": 2
+      },
+      "methods": {
+        "spectral_adaptive": {
+          "mean": 624.025713071533,
+          "std": 1016.0029934709214,
+          "median": 201.71720169366426,
+          "ci_95": [
+            62.70237989444854,
+            2881.291226602418
+          ]
+        },
+        "fixed_0.5_0.5": {
+          "mean": 2050.163285758961,
+          "std": 1522.8699605786176,
+          "median": 3203.385204931994,
+          "ci_95": [
+            103.44943518063077,
+            3574.512531815958
+          ]
+        },
+        "arima_only": {
+          "mean": 228.23342380796805,
+          "std": 182.9753285661521,
+          "median": 243.65794648890983,
+          "ci_95": [
+            36.55840928294114,
+            471.517287759886
+          ]
+        },
+        "lstm_only": {
+          "mean": 7156.348323205417,
+          "std": 5279.832398919645,
+          "median": 11724.792916039965,
+          "ci_95": [
+            269.39373198132944,
+            12012.876830598338
+          ]
+        }
+      }
+    }
+  ]
+}

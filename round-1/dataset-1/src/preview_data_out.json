@@ -1,0 +1,154 @@
+{
+  "datasets": [
+    {
+      "dataset": "energy",
+      "examples": [
+        {
+          "input": "[98.9135853431206, 109.12436483750152, 116.5596396585208, 121.73635857765966, 127.36951824565911, 129.63762266076458, 131.6775432275725, 127.73602831491024, 126.25144900314002, 121.64716175434037, 112...",
+          "output": "daily",
+          "metadata_series_id": "M4_energy_daily_00",
+          "metadata_domain": "energy",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 472,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 354,
+          "metadata_train_mean": 102.9234,
+          "metadata_train_std": 21.205,
+          "metadata_spectral_power_ratio": 0.7507,
+          "metadata_test_values": "[75.01573462076271, 76.26291376899142, 78.28851327995216, 85.89193927038717, 90.09601779125154, 94.18226535373603, 104.93768752797574, 110.09552336375127, 119.30064439495308, 127.02521642611312, 129.6...",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "[100.64733855442633, 107.55960465126802, 115.35443601870844, 121.64484609921709, 127.13074730657479, 129.32679069365759, 129.06839444470444, 127.6046011038459, 127.37689537491511, 119.00368115837892, ...",
+          "output": "daily",
+          "metadata_series_id": "M4_energy_daily_01",
+          "metadata_domain": "energy",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 573,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 429,
+          "metadata_train_mean": 103.325,
+          "metadata_train_std": 21.2804,
+          "metadata_spectral_power_ratio": 0.7725,
+          "metadata_test_values": "[85.79184490533505, 91.22940614779836, 99.25464171970701, 105.22306808999124, 112.3536952970651, 121.52925944574945, 125.35602063236338, 133.63097686231148, 133.67356814457398, 136.90092301758534, 133...",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "[98.88191456499243, 107.17599031898477, 116.52901608927881, 121.09419725386786, 126.87191574203165, 129.93490961062975, 130.11376900295016, 130.7712816981682, 123.83293594597268, 120.45956652784514, 1...",
+          "output": "daily",
+          "metadata_series_id": "M4_energy_daily_02",
+          "metadata_domain": "energy",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 586,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 439,
+          "metadata_train_mean": 103.4191,
+          "metadata_train_std": 21.331,
+          "metadata_spectral_power_ratio": 0.7303,
+          "metadata_test_values": "[135.28145206740209, 133.1315331820762, 128.64742455937642, 122.34369347027531, 116.71504466554471, 108.63638943070126, 97.82996507730951, 91.60027448229654, 86.62498431075134, 80.5488798266563, 77.57...",
+          "metadata_row_index": 2
+        }
+      ]
+    },
+    {
+      "dataset": "finance",
+      "examples": [
+        {
+          "input": "[100.1371390216166, 100.63968926829585, 100.46442602748577, 101.67883030241848, 104.82412067061875, 104.63437012991042, 106.06977651314726, 104.72885563944386, 104.72568544796738, 104.68678471444869, ...",
+          "output": "daily",
+          "metadata_series_id": "M4_finance_daily_00",
+          "metadata_domain": "finance",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 772,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 579,
+          "metadata_train_mean": 103.7255,
+          "metadata_train_std": 4.3011,
+          "metadata_spectral_power_ratio": 0.8555,
+          "metadata_test_values": "[110.26972651052316, 110.20192216222907, 113.24032397082716, 110.5482521140763, 109.40094777311666, 108.8899680272138, 108.72425873468644, 106.33020328707579, 104.9648512888625, 105.22681873915278, 10...",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "[100.01175536237366, 100.58036781425105, 101.62172743106015, 103.15637462085749, 105.64004482605351, 104.86380125270948, 103.56754873159214, 105.69982265849971, 105.54204140528665, 105.52629038488945,...",
+          "output": "daily",
+          "metadata_series_id": "M4_finance_daily_01",
+          "metadata_domain": "finance",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 258,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 193,
+          "metadata_train_mean": 104.0287,
+          "metadata_train_std": 4.3491,
+          "metadata_spectral_power_ratio": 0.8877,
+          "metadata_test_values": "[109.71784408526625, 106.95311777707687, 106.46257106636055, 106.55349424992494, 106.84623835106291, 105.6258252999368, 102.86138469393079, 103.28257042197617, 101.95551442910086, 102.31268247541634, ...",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "[100.0631584422436, 100.75010961599783, 102.50794153953466, 102.70426529958033, 102.71648675669492, 106.306406009289, 103.3116342921422, 105.74009904050735, 104.88722492853982, 103.01916112190403, 103...",
+          "output": "daily",
+          "metadata_series_id": "M4_finance_daily_02",
+          "metadata_domain": "finance",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 577,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 432,
+          "metadata_train_mean": 103.8847,
+          "metadata_train_std": 4.2742,
+          "metadata_spectral_power_ratio": 0.866,
+          "metadata_test_values": "[110.04717742949825, 108.22727700251937, 107.03467069072698, 107.06393014390095, 106.38592414163269, 106.41258561500776, 101.85231828180062, 103.67572127561672, 103.57150591109205, 104.89654584884572,...",
+          "metadata_row_index": 2
+        }
+      ]
+    },
+    {
+      "dataset": "transportation",
+      "examples": [
+        {
+          "input": "[46.77874093306103, 50.119882637249724, 54.55105517632952, 56.157934644936674, 54.53220137273437, 57.36138959636181, 57.38740531306508, 60.429078011258085, 62.110152332503596, 60.311420029292265, 64.4...",
+          "output": "daily",
+          "metadata_series_id": "M4_transportation_daily_00",
+          "metadata_domain": "transportation",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 645,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 483,
+          "metadata_train_mean": 52.7396,
+          "metadata_train_std": 16.0923,
+          "metadata_spectral_power_ratio": 0.7085,
+          "metadata_test_values": "[41.71756080029074, 42.87294428624171, 44.38686793337135, 47.08478028472582, 47.50015960640573, 49.057968956671566, 51.014605579819715, 53.130868356105914, 53.344525759686505, 52.46791743774916, 55.75...",
+          "metadata_row_index": 0
+        },
+        {
+          "input": "[47.70083934718339, 50.36750627227145, 53.93876026048746, 55.684113068555156, 57.1952318694929, 58.05170944107003, 58.16088979525631, 59.40545596983807, 61.21653588368861, 63.72636944931445, 61.235540...",
+          "output": "daily",
+          "metadata_series_id": "M4_transportation_daily_01",
+          "metadata_domain": "transportation",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 735,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 551,
+          "metadata_train_mean": 51.8625,
+          "metadata_train_std": 15.7906,
+          "metadata_spectral_power_ratio": 0.6687,
+          "metadata_test_values": "[20.872423868663805, 23.30147045675328, 18.643232910074747, 21.999310278727307, 18.316794113476448, 18.926361582649154, 21.74591802005982, 23.496600546886583, 23.518712968477953, 23.30097820853671, 27...",
+          "metadata_row_index": 1
+        },
+        {
+          "input": "[47.114968385277116, 51.585258953748365, 56.05789090792029, 55.40158241321962, 54.232281851352134, 59.07198268427298, 59.979485498606955, 57.57276191477686, 59.97502276947486, 59.97838825610975, 69.06...",
+          "output": "daily",
+          "metadata_series_id": "M4_transportation_daily_02",
+          "metadata_domain": "transportation",
+          "metadata_frequency": "daily",
+          "metadata_series_length": 252,
+          "metadata_source": "M4 (synthetic)",
+          "metadata_train_end_idx": 189,
+          "metadata_train_mean": 56.825,
+          "metadata_train_std": 13.441,
+          "metadata_spectral_power_ratio": 0.77,
+          "metadata_test_values": "[57.48875170307865, 56.28300276419309, 60.929669886035455, 64.78316197158769, 61.576503763147485, 61.28719285914116, 62.2718447910571, 67.93140551768998, 68.81523364921944, 68.79945223938712, 68.57727...",
+          "metadata_row_index": 2
+        }
+      ]
+    }
+  ]
+}

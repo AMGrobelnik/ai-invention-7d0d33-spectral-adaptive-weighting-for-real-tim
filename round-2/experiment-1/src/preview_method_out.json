@@ -1,0 +1,39 @@
+{
+  "datasets": [
+    {
+      "dataset": "spectral_ensemble_validation",
+      "examples": [
+        {
+          "input": "series_0",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "45.23",
+          "predict_fixed_05_mse": "156.78",
+          "predict_arima_mse": "67.45",
+          "predict_lstm_mse": "523.12",
+          "predict_alpha": "0.73",
+          "predict_omega_shift": "0.0026"
+        },
+        {
+          "input": "series_1",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "38.91",
+          "predict_fixed_05_mse": "124.56",
+          "predict_arima_mse": "52.34",
+          "predict_lstm_mse": "412.67",
+          "predict_alpha": "0.71",
+          "predict_omega_shift": "0.0082"
+        },
+        {
+          "input": "series_2",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "52.14",
+          "predict_fixed_05_mse": "178.92",
+          "predict_arima_mse": "73.67",
+          "predict_lstm_mse": "589.45",
+          "predict_alpha": "0.68",
+          "predict_omega_shift": "0.0105"
+        }
+      ]
+    }
+  ]
+}

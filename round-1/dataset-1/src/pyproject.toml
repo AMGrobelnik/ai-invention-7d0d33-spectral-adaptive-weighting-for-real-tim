@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectral-adaptive-dataset"
+version = "1.0.0"
+description = "Spectral-Adaptive Ensemble Time Series Dataset for forecasting research"
+requires-python = ">=3.12"
+
+dependencies = [
+    "numpy==2.0.2",
+    "pandas==2.2.3",
+    "requests==2.32.3",
+    "loguru==0.7.3",
+    "datasets==5.0.0",
+    "scipy==1.14.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.2.2",
+    "black==24.10.0",
+]
+
+[tool.setuptools]
+packages = []
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"

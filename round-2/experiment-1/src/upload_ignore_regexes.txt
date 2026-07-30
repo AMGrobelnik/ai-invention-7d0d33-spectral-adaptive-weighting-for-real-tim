@@ -1,0 +1,4 @@
+(^|/)\.venv/
+(^|/)logs/
+(^|/)\.repl_agent\.ptylog
+(^|/)*data_out\.json

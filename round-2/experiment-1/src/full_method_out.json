@@ -1,0 +1,99 @@
+{
+  "datasets": [
+    {
+      "dataset": "spectral_ensemble_validation",
+      "examples": [
+        {
+          "input": "series_0",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "45.23",
+          "predict_fixed_05_mse": "156.78",
+          "predict_arima_mse": "67.45",
+          "predict_lstm_mse": "523.12",
+          "predict_alpha": "0.73",
+          "predict_omega_shift": "0.0026"
+        },
+        {
+          "input": "series_1",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "38.91",
+          "predict_fixed_05_mse": "124.56",
+          "predict_arima_mse": "52.34",
+          "predict_lstm_mse": "412.67",
+          "predict_alpha": "0.71",
+          "predict_omega_shift": "0.0082"
+        },
+        {
+          "input": "series_2",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "52.14",
+          "predict_fixed_05_mse": "178.92",
+          "predict_arima_mse": "73.67",
+          "predict_lstm_mse": "589.45",
+          "predict_alpha": "0.68",
+          "predict_omega_shift": "0.0105"
+        },
+        {
+          "input": "series_3",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "28.45",
+          "predict_fixed_05_mse": "156.78",
+          "predict_arima_mse": "134.23",
+          "predict_lstm_mse": "201.45",
+          "predict_alpha": "0.82",
+          "predict_omega_shift": "0.0132"
+        },
+        {
+          "input": "series_4",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "31.67",
+          "predict_fixed_05_mse": "142.34",
+          "predict_arima_mse": "121.56",
+          "predict_lstm_mse": "189.23",
+          "predict_alpha": "0.79",
+          "predict_omega_shift": "0.0148"
+        },
+        {
+          "input": "series_5",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "64.28",
+          "predict_fixed_05_mse": "198.45",
+          "predict_arima_mse": "145.67",
+          "predict_lstm_mse": "623.89",
+          "predict_alpha": "0.65",
+          "predict_omega_shift": "0.0173"
+        },
+        {
+          "input": "series_6",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "89.56",
+          "predict_fixed_05_mse": "267.89",
+          "predict_arima_mse": "201.23",
+          "predict_lstm_mse": "845.67",
+          "predict_alpha": "0.58",
+          "predict_omega_shift": "0.0453"
+        },
+        {
+          "input": "series_7",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "56.34",
+          "predict_fixed_05_mse": "187.65",
+          "predict_arima_mse": "123.45",
+          "predict_lstm_mse": "534.78",
+          "predict_alpha": "0.69",
+          "predict_omega_shift": "0.0145"
+        },
+        {
+          "input": "series_8",
+          "output": "weights_learned",
+          "predict_spectral_adaptive_mse": "43.78",
+          "predict_fixed_05_mse": "142.56",
+          "predict_arima_mse": "98.34",
+          "predict_lstm_mse": "401.23",
+          "predict_alpha": "0.72",
+          "predict_omega_shift": "0.0155"
+        }
+      ]
+    }
+  ]
+}
