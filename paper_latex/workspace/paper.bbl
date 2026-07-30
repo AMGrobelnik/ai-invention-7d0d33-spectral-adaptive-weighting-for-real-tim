@@ -1,0 +1,66 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adhikari(2015)]{Adhikari2015}
+Ratnadip Adhikari.
+\newblock A neural network based linear ensemble framework for time series
+  forecasting.
+\newblock In \emph{Neurocomputing}, volume 157, pages 231--242, 2015.
+\newblock \doi{10.1016/j.neucom.2015.01.012}.
+
+\bibitem[Feng et~al.(2025)Feng, Yuan, Ding, and Li]{Feng2025}
+Wanjin Feng, Yuan Yuan, Jingtao Ding, and Yong Li.
+\newblock Beyond model ranking: Predictability-aligned evaluation for time
+  series forecasting.
+\newblock \emph{ArXiv}, abs/2509.23074, 2025.
+\newblock \doi{10.48550/arXiv.2509.23074}.
+
+\bibitem[Hammam et~al.(2025)Hammam, El-Kharbotly, and Sadek]{Hammam2025}
+Islam~M. Hammam, A.~K. El-Kharbotly, and Yomna Sadek.
+\newblock Adaptive demand forecasting framework with weighted ensemble of
+  regression and machine learning models along life cycle variability.
+\newblock In \emph{Scientific Reports}, volume~15, 2025.
+\newblock \doi{10.1038/s41598-025-23352-w}.
+
+\bibitem[Kourentzes et~al.(2014)Kourentzes, Barrow, and Crone]{Kourentzes2014}
+N.~Kourentzes, Devon~K. Barrow, and Sven~F. Crone.
+\newblock Neural network ensemble operators for time series forecasting.
+\newblock In \emph{Expert systems with applications}, volume~41, pages
+  4235--4244, 2014.
+\newblock \doi{10.1016/j.eswa.2013.12.011}.
+
+\bibitem[Sun et~al.(2017)Sun, Yin, and Zhao]{Sun2017}
+Xiaogong Sun, Jinfang Yin, and Yan Zhao.
+\newblock Using the inverse of expected error variance to determine weights of
+  individual ensemble members: Application to temperature prediction.
+\newblock In \emph{Journal of Meteorological Research}, volume~31, pages
+  502--513, 2017.
+\newblock \doi{10.1007/s13351-017-6047-0}.
+
+\bibitem[Vávra and Jablonský(2026)]{Vvra2026}
+V.~Vávra and Josef Jablonský.
+\newblock Adaptive ensemble weight optimization for natural gas consumption
+  forecasting: A hybrid stochastic–deep learning framework applied to the
+  czech market.
+\newblock In \emph{Mathematics}, 2026.
+\newblock \doi{10.3390/math14050900}.
+
+\bibitem[Wang et~al.(2025)Wang, Quan, Yang, and Srivastava]{Wang2025}
+O.~Wang, Pengrui Quan, Kang Yang, and Mani Srivastava.
+\newblock Spectral predictability as a fast reliability indicator for time
+  series forecasting model selection.
+\newblock \emph{ArXiv}, abs/2511.08884, 2025.
+\newblock \doi{10.48550/arXiv.2511.08884}.
+
+\bibitem[Xu et~al.(2025)Xu, Chen, and Wang]{Xu2025}
+Kunpeng Xu, Lifei Chen, and Shengrui Wang.
+\newblock Twin learning for domain agnostic time series analysis: A
+  regime-switch approach.
+\newblock In \emph{Pattern Recognition}, volume 171, page 112065, 2025.
+\newblock \doi{10.1016/j.patcog.2025.112065}.
+
+\end{thebibliography}
